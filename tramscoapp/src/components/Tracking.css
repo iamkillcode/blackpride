@@ -1,3 +1,66 @@
-.container-1{
+/* .container-1{
     margin-left: 5rem;
+} */
+/* .gridflexed{
+    display: flex;
+} */
+
+/* .wrapper{
+    display: flex;
+} */
+
+.htag {
+    display: flex;
+    color: black;
+    font-weight: 600;
+    font-size: large;
 }
+ p{
+    color: rgb(112, 114, 112)
+ }
+ .fcolor{
+    color: black;
+ }
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 4rem 10rem 2rem 10rem;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 3; }
+    .div2 { 
+            grid-area: 2 / 1 / 3 / 2;
+            
+    }
+    .div3 { 
+            grid-area: 2 / 2 / 3 / 3;
+        
+        }
+    .div4 { grid-area: 3 / 1 / 4 / 2;
+            
+    }
+    .div5 { grid-area: 3 / 2 / 4 / 3; }
+    .div6 { grid-area: 4 / 1 / 5 / 3; }
+    .div7 { grid-area: 5 / 1 / 6 / 2; }
+    .div8 { grid-area: 5 / 2 / 6 / 3; }
+    .div9 { grid-area: 1 / 3 / 6 / 4; }
+
+    .cntbutton {
+    padding: 12px 12px;
+    font-size: 1rem;
+    background: #ffffff;
+    color: rgb(7, 5, 5);
+    border: 2px solid rgb(5, 28, 53);
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 16px;
+    }
+
+    .cntbutton:hover{
+        background: rgba(5, 28, 53, 0.8);
+        color: #fff;
+        transition: ease-in 0.3s;
+    }
