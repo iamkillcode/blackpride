@@ -3,17 +3,23 @@
     justify-content: space-between;
     align-items: center;
     padding: 0.2rem;
-    margin-left: 2rem;
-    margin-right: 3rem;
+    margin-left: 8rem;
+    margin-right: 10rem;
+    /* border: 1px red solid; */
 }
 
 .logo{
     width: auto;
-    height: 60px;
+    height: 80px;
+    margin-top: 1rem;
+   
+    
 }
 
 .nav-menu {
     display: flex;
+    margin-top: -2rem;
+    
 }
 
 .nav-menu li{
@@ -22,30 +28,33 @@
 
 .nav-menu li a{
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .hamburger{
     display: none;
+    z-index: 5;
 }
 
 @media screen and (max-width:1040px) {
+    
+
     .nav-menu{
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 100vh;
+        height: 100%;
         background: rgba(0, 156, 138, 0.3);
         position: absolute;
         top: 0;
         left: -100%;
-        z-index: -3;
-        transition: 0.3s;
+        z-index: 2;
+        transition: 0.5s;
     }
 
     .nav-menu.active {
-        left: 0;
+        left: auto;
     }
 
     .nav-menu li{
