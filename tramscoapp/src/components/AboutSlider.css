@@ -1,0 +1,70 @@
+.pl-5{
+    padding-left: 4rem;
+    position: relative;
+    justify-content: center;
+}
+
+.pl-5 p{
+    color: rgb(27, 27, 27);
+    font-size: 16px;
+    
+    
+}
+
+.ledex_text {
+    width: 25rem;
+
+}
+
+.carousel__item {
+    /* background-color: rgb(61, 59, 59); */
+    padding: 8rem;
+}
+
+.carousel-control-next-icon, 
+.carousel-control-prev-icon {
+    
+    opacity: .8;
+    
+   
+}
+
+@media screen and (max-width: 769px) {
+
+    .d-flex{
+        display: none;
+    }
+.Carouselcl {
+    display: none;
+}
+    .pl-5{
+        
+        position: relative;
+        justify-content: center;
+    }
+    
+    .pl-5 p{
+        color: rgb(27, 27, 27);
+        font-size: 16px;
+        
+        
+    }
+    
+    /* .ledex_text {
+        
+    
+    } */
+    
+    .carousel__item {
+        /* background-color: rgb(61, 59, 59); */
+        padding: 6rem;
+    }
+    
+    .carousel-control-next-icon, 
+    .carousel-control-prev-icon {
+        
+        opacity: .8;
+        
+       
+    }
+}

@@ -1,49 +1,49 @@
-import React from 'react'
-import wwwicon from '../images/Iconfeatherglobe.png'
-import planeicon from '../images/airplane.png'
-import shipicon from '../images/cargo-ship.png'
-import '../components/Tracking.css'
+
+
+import './Tracking.css'
+import './TrackingMq.css'
 import ContactCard from './ContactCard'
+import {etys} from '../data'
 
 
 
 const Tracking = () => {
   return (
-    <div>
+    <div className='tracking__wrapper'>
 
     <div class="parent">
         <div class="div1"> 
             <div className='container-1'>
-                    <h1 className='fcolor'>Easily Track Your Shipment</h1>
+                    <h2 className='fcolor'>Easily Track Your <br /> Shipment</h2>
             </div>
         </div>
-
             
-            <div class="div2"> 
-                <img src={wwwicon} alt='wwwicon' className='flt1'>
+         
+            <div className="div2">
+                <img src={etys[0].img} alt='globe' className='flt1'>
                 </img>
                 <div className='flt2'>
-                <p className='htag'>5+</p>
-                <p>countries</p>
+                <p className='htag'>{etys[0].number}</p>
+                <p>{etys[0].type}</p>
                 </div>
             </div>
+            
 
-            <div class="div3"> 
-                <img src={shipicon} alt='shipicon' className='flt1'>
+            <div className="div3"> 
+            <img src={etys[1].img} alt='globe' className='flt1'>
                 </img>
-                
                 <div className='flt2'>
-                <p className='htag'>10+</p>
-                <p>vessels</p>
+                <p className='htag'>{etys[1].number}</p>
+                <p>{etys[1].type}</p>
                 </div>
             </div>
 
             <div class="div4"> 
-                <img src={planeicon} alt='planeicon' className='flt1'>
+            <img src={etys[2].img} alt='globe' className='flt1'>
                 </img>
                 <div className='flt2'>
-                <p className='htag'>5+</p>
-                <p>plane</p>
+                <p className='htag'>{etys[2].number}</p>
+                <p>{etys[2].type}</p>
                 </div>
             </div>
             
@@ -54,15 +54,18 @@ const Tracking = () => {
 
             <div class="div6">
                 <p>
-                    We take great pride in integrating local knowledge
-                    with automated global services.
+                    We take great pride in integrating local knowledge<br/>
+                    with automated global services<br/>
                     Phone us now for any inquiries.
                 </p>
-                
+                <div class="div77">
+                <button onClick={alert} className="cntbutton3">Contact Us</button>
+            
+            </div>
             </div>
 
             <div class="div7">
-                <button onClick={alert} className="cntbutton">Contact Us</button>
+                <button onClick={alert} className="cntbutton tmq">Contact Us</button>
             
             </div>
 

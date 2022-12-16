@@ -1,0 +1,59 @@
+@media screen and (max-width:769px) {
+    
+    .header{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0.2rem;
+        margin-left: 0rem;
+        margin-right: 1rem;
+        /* border: 1px red solid; */
+    }
+
+
+    .nav-menu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 156, 138, 0.95);
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        z-index: 99;
+        transition: 0.5s;
+        
+    }
+
+    .nav-menu.active {
+        left: 0;
+        width: 100vw;
+    }
+
+    .nav-menu li{
+        padding: 0.2rem 0.2rem;
+        margin: 0.5rem;
+    }
+
+    .nav-menu li a {
+        font-size: 1.4rem;
+    }
+    
+    .hamburger {
+        display: initial;
+    }
+
+    .logo{
+        width: 6rem;
+        height: 2rem;
+        margin-top: 1rem;
+        align-self: center;
+  
+    }
+
+    .nav-contact-button {
+        border-radius: 16px 16px;
+    }
+}

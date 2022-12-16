@@ -1,0 +1,29 @@
+@media screen and (max-width: 769px) {
+    .pl-5{
+        padding-left: 1rem;
+        position: relative;
+        justify-content: center;
+        
+    }
+    
+    .pl-5 p{
+        color: rgb(27, 27, 27);
+        font-size: 0.8rem;
+        
+        
+    }
+    
+    .ledex_text {
+        width: 22rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    
+    }
+    
+    
+   
+
+    
+
+    
+}

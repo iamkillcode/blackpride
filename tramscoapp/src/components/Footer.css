@@ -1,0 +1,240 @@
+.footer_wrapper{
+    background-color: #113337;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    padding: 4rem 8rem 0rem 8rem; 
+    z-index: 98;
+}
+
+.footer_container {
+    display: flex;
+    width: 60vw;
+    z-index: 99;
+    
+}
+.logo2{
+    width: 10rem;
+    height: 3rem;
+    margin-top:0 ;
+    margin-bottom: 1rem;
+}
+.fl-column {
+    display: flex;
+}
+.icns {
+    color: #f3f3f3;
+    padding-right: 0.5rem;
+    width: 2rem;
+    height: auto;
+    
+}
+
+
+.our-services-footer li{
+    color: #f3f3f3;
+    padding-bottom: .8em;
+
+}
+
+.our-company-footer li {
+    color: #f3f3f3;
+    padding-bottom: .8em;
+    
+}
+.sec1 p {
+    width: 11rem;
+    color: #f3f3f3;
+    
+}
+li, a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #f3f3f3;
+}
+
+
+ul {
+    padding-left: 0rem;
+}
+
+.sec2 h2, .sec3 h2{
+    padding-top: 1rem;
+    color: #f3f3f3;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.sec1, .sec2, .sec3{
+    /* border: 1px red solid; */
+    display: block;
+    padding-right: 3rem;
+}
+.newsletter{
+    margin-top: 1.5rem;
+    width: 22rem;
+}
+.newsletter h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #f3f3f3;
+}
+
+.newsletter p {
+    color: #f3f3f3;
+    flex-direction: column;
+    
+}
+
+
+/* .form-label {
+    margin-bottom: 0rem;
+} */
+
+.btn {
+    background-color: #297179;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.btn i{
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    font-weight: 800;
+}
+.btn:hover {
+    background-color: #124449;
+    box-shadow: 2px 4px 4px 2px rgba(0,0,0,0.35);
+}
+
+.get-in-touch {
+    position: relative;
+    width: 15rem;
+    height: auto;
+    padding-bottom: 12px;
+    background-color: #1c555c;
+    margin-right: 1rem;
+    top: -8rem;
+    left: -3;
+    z-index: 100;
+    box-shadow: 5px 8px 12px 2px rgba(0,0,0,0.3);
+    transition: ease 0.5s;
+}
+
+.contact-map iframe{
+    width: 100%;
+    height:35vh ;
+}
+
+a, a:hover{
+    text-decoration: none;
+    color: #f3f3f3;
+}
+
+.our-services-footer li a:hover{
+    color: #3cb1be;
+}
+
+textarea {
+    resize: none;
+    height: 5rem;
+}
+
+.form_items input, textarea {
+    background-color: #ffffff34;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    border: 1px #1c555c solid;
+
+}
+
+input::placeholder, textarea::placeholder {
+    color: #f3f3f3;
+    font-size: 12px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+}
+
+.address {
+    width: 90%;
+    margin: auto;
+}
+
+.input-group2 {
+
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.text_group1 h3, .text_group1 h2, .text_group1 p {
+    color: #f3f3f3;
+}
+
+.text_group1 h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.text_group1 p{
+    font-size: 12px;
+}
+
+.btn_pos {
+    display: flex;
+    margin: auto;
+   align-self: center;
+   color: #3cb1be;
+}
+
+.form-icons {
+    width: 1.3rem;
+    height: auto;
+}
+
+.form-text2, .form-email{
+    height: 2.2rem;
+    
+}
+.footerMobile {
+    display: none;
+}
+
+
+@media screen and (max-width: 769px) {
+    .footerMobile {
+        display: block;
+        background-color: #113337;
+        text-align: center;
+        justify-content: center;
+        padding: 3rem 3rem 4rem 3rem;
+    }
+
+    .address h3, .address p{
+        color: #fff;
+    }
+
+    .address h3{
+        font-weight: 600;
+    }
+
+    .form-outline {
+        display: flex;
+    }
+    .newsletter-mob h2 {
+        margin-top: 2rem;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .newsletter-mob p{
+        color: #fff;
+    }
+
+    .footer_wrapper{
+        display: none;
+    }
+}

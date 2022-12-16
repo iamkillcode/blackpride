@@ -1,0 +1,164 @@
+.parent2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 1rem;
+    grid-row-gap: 2rem;
+    /* width: calc(100vw - 200px); */
+    }
+    
+    .div1a { grid-area: 1 / 1 / 2 / 2; }
+    .div2a{ grid-area: 1 / 2 / 2 / 3; }
+    .div3a { grid-area: 1 / 3 / 2 / 4; }
+    .div4a { grid-area: 2 / 1 / 3 / 2; }
+    .div5a { grid-area: 2 / 2 / 3 / 3; }
+    .div6a { grid-area: 2 / 3 / 3 / 4; }
+    .div7a { grid-area: 3 / 1 / 4 / 4; 
+        display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    }
+
+    .services__wrapper{
+        display: block;
+        background-image: url(../images/Icon\ ionic-ios-globe-2.png);
+        background-color: #013237;
+        background-repeat: no-repeat;
+        background-position: 110%;
+        background-size: 35rem 35rem;
+        width: 100vw;
+        height: auto;
+        padding: 6rem 8rem 2rem 8rem;
+        
+    }
+
+    .service-text{
+        color: #ffffff;
+        font-size: small;
+        
+    }
+
+    .lfarrow {
+        float: right;
+    }
+    .o__icon {
+        position: relative;
+        top: -1rem;
+        z-index: 100;
+
+    }
+
+    .cntbutton2 {
+        
+        padding: 0.5rem;
+        font-size: 0.8rem;
+        background: transparent;
+        color: #ffffff;
+        border: 2px solid #ffffff;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 8px;
+        margin-top: 1rem;
+        
+        }
+
+        .cntbutton2:hover{
+        background: #217079;
+        color: #fff;
+        transition: ease-in 0.3s;
+        }
+
+    .d__box{
+        border-inline-end: 2px solid #f3f3f3;
+        border-inline-start: 2px solid #f3f3f3;
+        border-image-source: 
+            radial-gradient(
+                    circle at 50px 10px, transparent, white 100%);
+        border-block-end: 2px solid #f3f3f3;
+        border-block-start: 2px solid #f3f3f3;
+        border-image-slice: 1;
+        width: 20rem;
+        height:fit-content;
+        padding : 1rem;
+        margin-right: 0rem;
+        
+        font-size: small;
+        color: #f3f3f3;
+    }
+
+    .position__top{
+        position: relative;
+        top: -2rem;
+    }
+
+    .tagline {
+        font-weight: bold;
+        color: #f3f3f3;
+    }
+
+    .bs {
+        font-size: 2rem;
+    }
+    .flex-in-grid{
+        display:contents;
+    }
+
+    @media screen and (max-width: 769px) {
+
+        .services__wrapper{
+            display: none;
+        }
+
+        .parent2 {
+            display: grid;
+            
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-column-gap: 0rem;
+            grid-row-gap: 0rem;
+            width: calc(100vw - 200px);
+            height: 100rem;
+            }
+
+            .div1a { grid-area: 1 / 1 / 2 / 2; }
+            .div2a{ grid-area: 1 / 2 / 2 / 3; margin-bottom: 4rem;}
+            .div3a { grid-area: 1 / 3 / 2 / 4;margin-bottom: 4rem; }
+            .div4a { grid-area: 2 / 1 / 3 / 2;margin-bottom: 4rem; }
+            .div5a { grid-area: 2 / 2 / 3 / 3;margin-bottom: 4rem; }
+            .div6a { grid-area: 2 / 3 / 3 / 4;margin-bottom: 4rem; }
+            .div7a { grid-area: 3 / 1 / 4 / 4;margin-bottom: 4rem; }
+
+            .flex-in-grid {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            .tagline {
+                padding-bottom: 3rem;
+            }
+
+            .d__box {
+                margin-right: 0rem;
+            }
+
+            .services__wrapper{
+                background-image: url(../images/Icon\ ionic-ios-globe-2.png);
+                background-color: #013237;
+                background-repeat: no-repeat;
+                background-position: 60%;
+                background-size: 35rem 35rem;
+                width: 100vw;
+                height: fit-content;
+                padding: 4rem 1rem 1rem 4rem;
+                
+            }
+            
+            
+    }
+
+    

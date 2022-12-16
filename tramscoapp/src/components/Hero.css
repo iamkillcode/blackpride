@@ -1,10 +1,14 @@
 .container {
     display: flex;
-    margin: 4rem 10rem 2rem 8rem ;
-    padding-bottom: 3rem;
+    margin: 4rem 15rem 2rem 8rem ;
+    padding-bottom: 1rem;
+    
     
 }
-
+body{
+    overflow-x: hidden;
+    
+}
 .container-img {
     width: 400px;
     height: 380px;
@@ -19,10 +23,12 @@
  font-size: 2.8rem;
 }
 .descr-one p {
+    width: 30rem;
     font-size: 1.2rem;
     font-weight: 350;
-    margin-right: 8rem;
+    margin-right: auto;
     padding-top: 1.5rem;
+    padding-right: auto;
     color: #fff;
    }
 
@@ -38,8 +44,15 @@
    }
 
    .meeting-schedule:hover{
-    background: rgba(18, 97, 42, 0.8);
+    background: #217079;;
     color: #fff;
     transition: ease-in 0.3s;
+    cursor: pointer;
 
 }
+
+.mob-version {
+    display: none;
+}
+
+

@@ -1,0 +1,80 @@
+@media screen and (max-width: 769px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border: 1px solid red; */
+        margin: 0.2%;
+        margin-top: 2.5rem;
+        padding-bottom: 1.5rem;
+        
+        
+    }
+
+    .mob-version {
+        display: inline;
+    }
+    
+    body{
+        overflow-x: hidden;
+    }
+    .container-img {
+        display: none;
+        width: 15rem;
+        height: 180px;
+        padding-top: 1.5rem;
+    
+    }
+    
+    .descr-one{
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+    .descr-one h1{
+     font-size: 1.6rem;
+     font-weight: 600;
+     text-align: center;
+
+    }
+
+    /* .title__two {
+        padding-left: 3rem;
+    } */
+
+    .descr-one p {
+        width: auto;
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 350;
+        margin-right: 0rem;
+        padding-top: 0.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+
+        color: #fff;
+       }
+    
+       .meeting-schedule {
+        padding: 0.5rem;
+        margin-top: 1rem;
+        background-color: transparent;
+        font-weight: 300;
+        font-size: 1rem;
+        border-radius: 16px;
+        border: 2px solid #ffffff ;
+        color: white;
+       }
+    
+       .meeting-schedule:hover{
+        background: #217079;;
+        color: #fff;
+        transition: ease-in 0.3s;
+        cursor: pointer;
+    
+    }
+}

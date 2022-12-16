@@ -1,0 +1,82 @@
+@media screen and (max-width: 769px) {
+    .container__main{
+        position:static;
+        z-index: 100;
+        width: 95%;
+        height: auto;
+        border-radius: 16px;
+        margin-left: 3rem;
+        margin-top: 2rem;
+        /* border: 1px solid blue; */
+        box-shadow: 5px 8px 12px 2px rgba(0,0,0,0.2);
+        transition: 0.3s;
+        padding: 2rem;
+        background-color: #f3f3f3;
+        
+    }
+    .containerMain:hover{
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    .contactcard__image{
+        display: none;
+        width: 100%;
+        height: 45vh;
+    }
+    
+    .para__title {
+        color: #013237;
+        font-weight: bold;
+        font-size: large;
+    }
+    
+    .para__sub{
+        color: #013237;
+        font-size: x-small;
+        font-weight: 600;
+    }
+    
+    .logo-cnt{
+        background-color: black;  
+        width: 2rem;
+    }
+    
+    .text__area {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: space-between;
+        align-items: center;
+    }
+    .text__area > * {
+        margin: 0.4rem;
+    }
+    
+    .input__field {
+        border: 1.5px solid rgb(36, 119, 36);
+        border-radius: 8px 8px;
+        padding: 2%;
+    }
+    
+    .input__field::placeholder{
+        font-weight: bold;
+        color: #0202028c;
+        font-size: x-small;
+    }
+    
+    .lg{
+        margin-top: 1rem;
+        font-size: x-large;
+        font-weight: bold;
+        color: #585858;
+    }
+    .cntbutton {
+        margin-left: 0rem;
+    }
+    .cntbutton:hover{
+        background: #013237;
+        color: #fff;
+        transition: ease-in 0.3s;
+    }
+
+}
